@@ -1,0 +1,13 @@
+import{_ as a}from"./plugin-vue_export-helper.21dcd24c.js";import{o as n,c as s,a0 as e}from"./framework.6806ca9c.js";const _='{"title":"High-Frequency Git CMD","description":"Note","frontmatter":{"title":"High-Frequency Git CMD","description":"Note","date":"2022-01-18T08:45:18.000Z","sidebar":true,"comment":true,"category":["Tech"],"tags":["Git"]},"relativePath":"posts/Tech/Git/cmd.md","lastUpdated":1663592904297}',t={},r=e(`<h1 id="_1-global-config" tabindex="-1">1. Global config <a class="header-anchor" href="#_1-global-config" aria-hidden="true">#</a></h1><div class="language-bash line-numbers-mode"><pre><code><span class="token comment"># global username</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&quot;xxx&quot;</span>
+
+<span class="token comment"># global email</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&quot;xxx@email.com&quot;</span>
+
+<span class="token comment"># show configured info</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--list</span>
+
+<span class="token comment"># clean configured info</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> <span class="token punctuation">[</span>user.name<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h1 id="_2-generate-key" tabindex="-1">2. Generate key <a class="header-anchor" href="#_2-generate-key" aria-hidden="true">#</a></h1><div class="language-bash line-numbers-mode"><pre><code>ssh-keygen <span class="token parameter variable">-t</span> rsa <span class="token parameter variable">-C</span> <span class="token string">&quot;xxx@email.com&quot;</span>
+</code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div>`,4),l=[r];function p(o,c,i,m,b,u){return n(),s("div",null,l)}var k=a(t,[["render",p]]);export{_ as __pageData,k as default};
